@@ -1,0 +1,29 @@
+h1 {
+  text-align: center;
+}
+
+table {
+  margin: auto;
+}
+
+td {
+  border: 1px solid black;
+  height: 50px;
+  width: 50px;
+  text-align: center;
+}
+
+button {
+  font-size: 24px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+input {
+  height: 50px;
+  width: 50px;
+  text-align: center;
+  font-size: 16px;
+
+}

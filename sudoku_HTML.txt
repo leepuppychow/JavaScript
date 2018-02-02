@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<script type="text/javascript" src="SudokuSolver_OOP.js"></script>
+
+<title>
+  Sudoku Solver
+</title>
+
+<h1>
+ Sudoku Solver
+</h1>
+
+<form>
+  <table>
+    <tr>
+      <td>
+        <input type="text" value = "0"> </td>
+      <td>
+        <input type="text" value = "0"> </td>
+      <td>
+        <input type="text" value = "0"> </td>
+      <td>
+        <input type="text" value = "0"> </td>
+      <td>
+        <input type="text" value = "0"> </td>
+      <td>
+        <input type="text" value = "0"> </td>
+      <td>
+        <input type="text" value = "0"> </td>
+      <td>
+        <input type="text" value = "0"> </td>
+      <td>
+        <input type="text" value = "0"> </td>
+    </tr>
+    <tr>
+       <td>
+        <input type="text" value = "0"> </td>
+      <td>
+        <input type="text" value = "0"> </td>
+      <td>
+        <input type="text" value = "0"> </td>
+      <td>
+        <input type="text" value = "0"> </td>
+      <td>
+        <input type="text" value = "0"> </td>
+      <td>
+        <input type="text" value = "0"> </td>
+      <td>
+        <input type="text" value = "0"> </td>
+      <td>
+        <input type="text" value = "0"> </td>
+      <td>
+        <input type="text" value = "0"> </td>
+    </tr>
+    <tr>
+       <td>
+        <input type="text" value = "0"> </td>
+      <td>
+        <input type="text" value = "0"> </td>
+      <td>
+        <input type="text" value = "0"> </td>
+      <td>
+        <input type="text" value = "0"> </td>
+      <td>
+        <input type="text" value = "0"> </td>
+      <td>
+        <input type="text" value = "0"> </td>
+      <td>
+        <input type="text" value = "0"> </td>
+      <td>
+        <input type="text" value = "0"> </td>
+      <td>
+        <input type="text" value = "0"> </td>
+    </tr>
+    <tr>
+      <td>
+        <input type="text" value = "0"> </td>
+      <td>
+        <input type="text" value = "0"> </td>
+      <td>
+        <input type="text" value = "0"> </td>
+      <td>
+        <input type="text" value = "0"> </td>
+      <td>
+        <input type="text" value = "0"> </td>
+      <td>
+        <input type="text" value = "0"> </td>
+      <td>
+        <input type="text" value = "0"> </td>
+      <td>
+        <input type="text" value = "0"> </td>
+      <td>
+        <input type="text" value = "0"> </td>
+    </tr>
+    <tr>
+       <td>
+        <input type="text" value = "0"> </td>
+      <td>
+        <input type="text" value = "0"> </td>
+      <td>
+        <input type="text" value = "0"> </td>
+      <td>
+        <input type="text" value = "0"> </td>
+      <td>
+        <input type="text" value = "0"> </td>
+      <td>
+        <input type="text" value = "0"> </td>
+      <td>
+        <input type="text" value = "0"> </td>
+      <td>
+        <input type="text" value = "0"> </td>
+      <td>
+        <input type="text" value = "0"> </td>
+    </tr>
+    <tr>
+      <td>
+        <input type="text" value = "0"> </td>
+      <td>
+        <input type="text" value = "0"> </td>
+      <td>
+        <input type="text" value = "0"> </td>
+      <td>
+        <input type="text" value = "0"> </td>
+      <td>
+        <input type="text" value = "0"> </td>
+      <td>
+        <input type="text" value = "0"> </td>
+      <td>
+        <input type="text" value = "0"> </td>
+      <td>
+        <input type="text" value = "0"> </td>
+      <td>
+        <input type="text" value = "0"> </td>
+    </tr>
+    <tr>
+       <td>
+        <input type="text" value = "0"> </td>
+      <td>
+        <input type="text" value = "0"> </td>
+      <td>
+        <input type="text" value = "0"> </td>
+      <td>
+        <input type="text" value = "0"> </td>
+      <td>
+        <input type="text" value = "0"> </td>
+      <td>
+        <input type="text" value = "0"> </td>
+      <td>
+        <input type="text" value = "0"> </td>
+      <td>
+        <input type="text" value = "0"> </td>
+      <td>
+        <input type="text" value = "0"> </td>
+    </tr>
+    <tr>
+       <td>
+        <input type="text" value = "0"> </td>
+      <td>
+        <input type="text" value = "0"> </td>
+      <td>
+        <input type="text" value = "0"> </td>
+      <td>
+        <input type="text" value = "0"> </td>
+      <td>
+        <input type="text" value = "0"> </td>
+      <td>
+        <input type="text" value = "0"> </td>
+      <td>
+        <input type="text" value = "0"> </td>
+      <td>
+        <input type="text" value = "0"> </td>
+      <td>
+        <input type="text" value = "0"> </td>
+    </tr>
+    <tr>
+     <td>
+        <input type="text" value = "0"> </td>
+      <td>
+        <input type="text" value = "0"> </td>
+      <td>
+        <input type="text" value = "0"> </td>
+      <td>
+        <input type="text" value = "0"> </td>
+      <td>
+        <input type="text" value = "0"> </td>
+      <td>
+        <input type="text" value = "0"> </td>
+      <td>
+        <input type="text" value = "0"> </td>
+      <td>
+        <input type="text" value = "0"> </td>
+      <td>
+        <input type="text" value = "0"> </td>
+    </tr>
+  </table>
+
+</form>
+
+<button>
+  Solve it!
+</button>
